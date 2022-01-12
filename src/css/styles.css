@@ -20222,3 +20222,6 @@ a:not([data-aos]):not(.btn):hover {
     display: none !important;
   }
 }
+
+.blogImg { aspect-ratio: 3 / 2; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+.footerLogo { max-width: 75%; }
