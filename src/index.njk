@@ -209,57 +209,5 @@ layout: 'base.njk'
 		</div>
 	</div>
 </section>
-<section class="py-10 py-lg-20 text-center bg-action-1">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-5 offset-md-1">
-				<h1 class="text-start text-light-1 mb-5">Request an Appointment</h1>
-				<p class="text-start text-light-1 fs-4">
-							If this is a life-threatening emergency, please call 911 or report to the closest Emergency Department.
-					<br>
-					<br>Routine requests will be responded to within one (1) business day.
-					<br>
-					<br>If you would like a same-day appointment, please call us at 919-929-1747 (Press option 1 or option 2) before 4 pm.
-				</p>
-			</div>
-			<div class="col-md-5">
-				<form static-form  method="post" enctype="multipart/form-data" class="">
-					<div class="alert alert-action-8 fixed-top invisible fade -result" data-result="success" role="alert"><span class="-alert-text" data-default-text="Thanks for your message!">Thanks for your message!</span></div>
-					<div class="alert alert-action-5 fixed-top invisible fade -result" data-result="error" role="alert"><span class="-alert-text">Error!</span></div>
-							
-					<select name="subject" class="form-select form-control border border-light-3 text-light-1 mb-6" data-aos="fade-down" data-aos-delay="150" >
-						<option value="" disabled="" selected="">I would like to discuss...</option>
-						<option value="Physical Exams">Physical Exams</option>
-						<option value="Routine Pediatric Medical Services">Routine Pediatric Medical Services</option>
-						<option value="Prevention/Wellness/Wellness Counseling">Prevention/Wellness/Wellness Counseling</option>
-						<option value="Diagnostic Services">Diagnostic Services</option>
-						<option value="Specialized Services">Specialized Services</option>
-						<option value="24/7/365 On-Call Coverage">24/7/365 On-Call Coverage</option>
-						<option value="Other">Other</option>
-					</select>
-					<div class="row justify-content-center">
-						<div class="mb-6 col-6" data-aos="fade-down" data-aos-delay="250">
-							<div class="input-group">
-								<input type="text" name="firstname" placeholder="First name" class="form-control border border-light-3 text-light-1" required="required" >																						
-							</div>
-						</div>
-						<div class="mb-6 col-6" data-aos="fade-down" data-aos-delay="250">
-							<div class="input-group">
-								<input type="text" name="lastname" placeholder="Last name" class="form-control border border-light-3 text-light-1" required="required">																						
-							</div>
-						</div>
-					</div>
-					<div class="input-group mb-6" data-aos="fade-down" data-aos-delay="400">
-						<div class="input-group-text border-end-0 ps-4 pe-2 border-light-3 text-light-1">
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-3"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.5002 3.75H2.5002C2.16868 3.75 1.85074 3.8817 1.61632 4.11612C1.3819 4.35054 1.2502 4.66848 1.2502 5V5.27104L10.0002 10.5213L18.7502 5.27098V5C18.7502 4.66848 18.6185 4.35054 18.3841 4.11612C18.1497 3.8817 17.8317 3.75 17.5002 3.75ZM0.000203451 5.64224C-6.77314e-05 5.63161 -6.79025e-05 5.62098 0.000203451 5.61034V5C0.000203451 4.33696 0.263596 3.70107 0.732437 3.23223C1.20128 2.76339 1.83716 2.5 2.5002 2.5H17.5002C18.1632 2.5 18.7991 2.76339 19.268 3.23223C19.7368 3.70107 20.0002 4.33696 20.0002 5V5.61604V5.63397V15C20.0002 15.663 19.7368 16.2989 19.268 16.7678C18.7991 17.2366 18.1632 17.5 17.5002 17.5H2.5002C1.83716 17.5 1.20128 17.2366 0.732437 16.7678C0.263596 16.2989 0.000203451 15.663 0.000203451 15V5.64224ZM18.7502 13.9117V6.72895L12.6801 10.3708L18.7502 13.9117ZM18.7051 15.3329L11.5602 11.165L11.4569 11.1048L10.0002 11.9788L8.54329 11.1049L8.44016 11.165L1.29533 15.3328C1.35239 15.5394 1.46213 15.7297 1.61632 15.8839C1.85074 16.1183 2.16868 16.25 2.5002 16.25H17.5002C17.8317 16.25 18.1497 16.1183 18.3841 15.8839C18.5383 15.7297 18.648 15.5394 18.7051 15.3329ZM1.2502 13.9117V6.73013L7.31989 10.371L1.2502 13.9117Z"></path>
-							</svg>
-						</div>
-						<input type="email" name="email" placeholder="Email address" class="form-control border-start-0 ps-1 border-light-3 text-light-1" required="required" >																						
-					</div>
-					<button class="btn w-100 mb-6 btn-outline-action-4" data-aos="fade-down" data-aos-delay="750">Send</button>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
-											
+
+{% include './_includes/appt-request.njk' %}

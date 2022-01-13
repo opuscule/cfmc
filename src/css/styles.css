@@ -20225,3 +20225,5 @@ a:not([data-aos]):not(.btn):hover {
 
 .blogImg { aspect-ratio: 3 / 2; background-size: cover; background-repeat: no-repeat; background-position: center center; }
 .footerLogo { max-width: 75%; }
+
+.aboutSpacer1 { background-image: url('/i/about-bg.jpeg'); background-size: cover; height: 45vh; }
