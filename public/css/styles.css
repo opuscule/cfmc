@@ -20223,7 +20223,19 @@ a:not([data-aos]):not(.btn):hover {
   }
 }
 
+/* primaryblue - 195890
+primaryred - ED1C24
+primarygreen - 23A449
+primaryyellow - FFC90A */
+
+.insuranceAccepted li a { color: rgba(var(--bs-light-1-rgb), var(--bs-text-opacity)) !important; display: inline-flex; }
+
 .blogImg { aspect-ratio: 3 / 2; background-size: cover; background-repeat: no-repeat; background-position: center center; }
 .footerLogo { max-width: 75%; }
 
-.aboutSpacer1 { background-image: url('/i/about-bg.jpeg'); background-size: cover; height: 45vh; }
+.aboutSpacer1 { background-image: url('/i/about-bg.jpeg'); background-size: cover; height: 55vh; }
+
+.hoursContact { display: grid; grid-template-columns: max-content auto; column-gap: 1em; row-gap: 0.5em; }
+
+.hoursContact > div:nth-child(2n) {  }
+.today { color:#2070B6; background-color: rgba(0,0,0,0.1); }
