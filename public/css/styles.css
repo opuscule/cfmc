@@ -103,7 +103,9 @@
     scroll-behavior: smooth;
   }
 }
-
+html {
+  scroll-padding-top: 150px; /* height of sticky header */
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
