@@ -20233,6 +20233,40 @@ primaryyellow - FFC90A */
 .featureIcon { max-width:5rem; display: block; margin: 0 auto 1em; }
 .insuranceAccepted li a { color: rgba(var(--bs-light-1-rgb), var(--bs-text-opacity)) !important; display: inline-flex; }
 
+.singleTestimonial { background-color: #FFF; -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); z-index: 1; position: relative; margin:1em; }
+.twQuote { width: 11em; height: 12em; fill: rgba(255,201,10,0.3); position: absolute; left: 2.3em; top: 0.5em; z-index: -1; }
+.tgMetaCont { display: flex; align-items: center; }
+.tgMetaCont img { max-width: 3em; }
+.tgMetaCont p { margin: 0 0 0 1em; }
+
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: -1.3em;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.slick-dots li { margin: 0 0.5em; }
+.slick-dots li button {
+  border: 1px solid #195890; 
+  border-radius: 50%; width: 14px; height:14px;
+  font-size: 0;
+}
+.slick-dots li.slick-active button { background-color: #195890; }
+
+/* New code */
+.slick-dots ul {
+  padding: 0;
+}
+
 .blogImg { aspect-ratio: 3 / 2; background-size: cover; background-repeat: no-repeat; background-position: center center; }
 .footerLogo { max-width: 75%; }
 
