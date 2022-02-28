@@ -1,0 +1,21 @@
+---
+layout: 'base.njk'
+---
+<div class="container">
+	<div class="row justify-content-center align-items-center mt-14 mb-20">
+		<div class="col-md-4">
+			<img src="{{ image }}" alt="{{ imageAlt }}" class="img-fluid" style="width:100%;" />
+		</div>
+		<div class="col-md-6">
+			<h1 class="display-3 mb-8">{{ title }}</h1>
+			<p class="mb-1">{{ date | postDate }}</p>
+			<p>By: {{ author }}</p>
+		</div>
+	</div>
+	<div class="row justify-content-center mb-20">
+		<article class="col-md-7 blog-post-layout">
+			
+			{{ content | safe }}
+		</article>
+	</div>
+</div>

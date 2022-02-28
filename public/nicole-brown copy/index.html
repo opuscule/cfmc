@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
 <!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
@@ -80,7 +82,7 @@
         <div class="row justify-content-between align-items-center">
           <div class="col-3">
             <a href="/">
-              <img src="/i/carrboro-family-medicine-center.png" srcset="/i/carrboro-family-medicine-center.png" alt="Carrboro Family Medicine Center, P.A." class="img-fluid w-auto headerLogo" data-aos="fade-down" data-aos-delay="0">						
+              <img src="/i/carrboro-family-medicine-center-logo.svg" srcset="/i/carrboro-family-medicine-center-logo.svg" alt="Carrboro Family Medicine Center, P.A." class="img-fluid w-auto headerLogo" data-aos="fade-down" data-aos-delay="0">						
             </a>
           </div>
           <nav class="text-end col-9">
@@ -113,9 +115,37 @@
 </section>
 
 <section class="testimonialsGlobal py-10 py-lg-20 bg-bg-2">
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<p>testimonials here</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<div class="testimonialWrapper">
+					<div class="singleTestimonial p-20">
+						<svg xmlns="http://www.w3.org/2000/svg" class="twQuote" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+						<blockquote class="fs-4">Dr Manor sees me, my husband and my mother-in-law and we have had to wait a while a couple of times, especially after we were in the examining room, but it doesn't bother us because he's patient and careful with us, isn't rushed when we ask lots of questions, and his nurse and the other staff members are friendly and professional. We couldn't be happier with the practice.</blockquote>
+						<div class="tgMetaCont">
+							<img src="/i/nan-z.png" alt="Nan Z." /><p><strong>Nan Z.</strong> on <a href="https://goo.gl/maps/nNsqC8LzLgUQWZSg6" target="_blank" rel="noopener nofollow">Google</a></p>
+						</div>
+					</div>
+					<div class="singleTestimonial p-20">
+						<svg xmlns="http://www.w3.org/2000/svg" class="twQuote" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+						<blockquote class="fs-4">I have been seeing Dr. Manor for 30+ years. Only had an issue once with one of the staff, and they didn't stay long, so it resolved itself. Dr. Manor takes his time with his patients, but rarely have I had to wait an inordinate amount of time, and that was when they had to call rescue for one of the patients. Staff is wonderful and pleasant to work with.</blockquote>
+						<div class="tgMetaCont">
+							<img src="/i/forest-h.png" alt="Forest H." /><p><strong>Forest H.</strong> on <a href="https://goo.gl/maps/XgMdvmfhsaecrYFu6" target="_blank" rel="noopener nofollow">Google</a></p>
+						</div>
+					</div>
+					
+					<div class="singleTestimonial p-20">
+						<svg xmlns="http://www.w3.org/2000/svg" class="twQuote" viewBox="0 0 448 512"><path d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+						<blockquote class="fs-4">The staff here are incredibly friendly! I made my appointment one month out and had my physical, including my lab tests, all in one visit. One week later I get a phone call to let me know that everything was perfectly good and asked me if there were any other concerns I had. My doctor was very knowledgeable and spoke with me at length about my concerns. Great place to go!</blockquote>
+						<div class="tgMetaCont">
+							<img src="/i/elyam-w.png" alt="Elyam W." /><p><strong>Elyam W.</strong> on <a href="https://goo.gl/maps/rmHRbKkt1LBEzZjQ6" target="_blank" rel="noopener nofollow">Google</a></p>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -181,12 +211,12 @@
     <footer class="bg-bg-3 pt-12 pb-8">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-3 col-xl-5 col-lg-4" data-aos="fade-down" data-aos-delay="0">
+          <div class="col-sm-12 col-md-8 col-xl-5 col-lg-4 aos-init aos-animate text-center" data-aos="fade-down" data-aos-delay="0">
             <a href="/" class="mb-8 mb-lg-0">
               <img src="/i/133674carrborologofinal8final.png" srcset="/i/133674carrborologofinal8final.png" alt="Carrboro Family Medical Center" class="img-fluid footerLogo">
             </a>
           </div>
-          <div class="mb-sm-8 mb-md-0 col-lg-2 col-md-3 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+          <div class="mb-sm-8 mb-md-0 col-lg-2 col-md-6 col-sm-6" data-aos="fade-down" data-aos-delay="250">
             <h5 class="mb-4">For Patients</h5>
             <a href="/patient-info/#patient-policies" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">Policies</a>
             <a href="/patient-info/#forms" class="mb-4 me-2 me-sm-0 d-sm-block text-dark-1">Forms</a>
@@ -233,8 +263,17 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
     
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
     <script>
       jQuery(document).ready(function(){
+        $('.testimonialWrapper').slick({
+          infinite: true,
+          dots: true,
+          arrows: false,
+          adaptiveHeight: true
+        });
+        
         // day of week for hours of operation
         var $today = new Date().getDay();
         if ($today == 0){ jQuery('.sun0').addClass('today');} else if ($today == 1){jQuery('.mon1').addClass('today');} else if ($today == 2){jQuery('.tue2').addClass('today');} else if ($today == 3){jQuery('.wed3').addClass('today');} else if ($today == 4){jQuery('.thu4').addClass('today');} else if ($today == 5){jQuery('.fri5').addClass('today');} else {jQuery('.sat6').addClass('today');}	

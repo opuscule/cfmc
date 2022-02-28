@@ -20230,6 +20230,10 @@ primaryred - ED1C24
 primarygreen - 23A449
 primaryyellow - FFC90A */
 
+.headerLogo { width:100% !important; }
+
+.contact-info-icon { fill:#195890; max-width:1.5em; }
+
 .featureIcon { max-width:5rem; display: block; margin: 0 auto 1em; }
 .insuranceAccepted li a { color: rgba(var(--bs-light-1-rgb), var(--bs-text-opacity)) !important; display: inline-flex; }
 
@@ -20272,7 +20276,23 @@ primaryyellow - FFC90A */
 
 .aboutSpacer1 { background-image: url('/i/cfmc-office.jpeg'); background-size: cover; height: 70vh; }
 
-.hoursContact { display: grid; grid-template-columns: max-content auto; column-gap: 1em; row-gap: 0.5em; }
+
+
+.contact-social-icons { list-style-type: none; margin: 0; padding: 0; display: flex; column-gap:1em; justify-content: center; }
+.contact-social-icons li a { width: 2.25em; height:2.25em; display:flex; align-items: center; justify-content: center; border-radius:50%; }
+.csmicon-fb { background-color: #4267B2; }
+.csmicon-li { background-color: #0077b5; }
+.csmicon-yelp { background-color: #F43939; }
+.csmicon-google { background-color: #4285F4; }
+
+
+
+.contact-social-icons li svg { height:1.2em; fill:#FFF; }
+
+
+.hoursContact { display: inline-grid; grid-template-columns: max-content auto; }
+
+.hoursContact > div { padding:0.4em 0.6em; }
 
 .hoursContact > div:nth-child(2n) {  }
-.today { color:#2070B6; background-color: rgba(0,0,0,0.1); }
+.today { color:#2070B6; background-color: rgba(0,0,0,0.05); }
