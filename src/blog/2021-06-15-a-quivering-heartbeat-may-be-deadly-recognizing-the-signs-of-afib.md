@@ -1,9 +1,8 @@
 ---
-title: A Quivering Heartbeat May Be Deadly: Recognizing the Signs of AFib
-titleTag: A Quivering Heartbeat May Be Deadly: Recognizing the Signs of AFib
+title: A Quivering Heartbeat May Be Deadly - Recognizing the Signs of AFib
+titleTag: A Quivering Heartbeat May Be Deadly - Recognizing the Signs of AFib
 author: Stephen Vogel
 date: 2021-06-15
-tags: post
 image: /i/heartbeat-afib.jpeg
 imageAlt: AFib Heartbeat
 description: Why Shelter-In-Place is a Job for us All Social distancing, Quarantine, Shelter-in-place – These are all new word and terms now swirling through our daily conversation, and influencing our activity. With the increase in cases as of March 26th, the US is now seeing both the most new and largest

@@ -20230,11 +20230,18 @@ primaryred - ED1C24
 primarygreen - 23A449
 primaryyellow - FFC90A */
 
+:root {
+  --primaryBlue: #195890;
+}
+
 .headerLogo { width:100% !important; }
+
+nav.sticky-top { -webkit-box-shadow: 0 5px 5px -5px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,0.3); }
 
 .contact-info-icon { fill:#195890; max-width:1.5em; }
 
-.featureIcon { max-width:5rem; display: block; margin: 0 auto 1em; }
+.featureIcon { max-width:5rem; display: block; margin: 0 auto 1em; fill: var(--primaryBlue); }
 .insuranceAccepted li a { color: rgba(var(--bs-light-1-rgb), var(--bs-text-opacity)) !important; display: inline-flex; }
 
 .singleTestimonial { background-color: #FFF; -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); box-shadow: 0 0 8px 0 rgba(0,0,0,0.2); z-index: 1; position: relative; margin:1em; }
@@ -20274,7 +20281,7 @@ primaryyellow - FFC90A */
 .blogImg { aspect-ratio: 3 / 2; background-size: cover; background-repeat: no-repeat; background-position: center center; }
 .footerLogo { max-width: 75%; }
 
-.aboutSpacer1 { background-image: url('/i/cfmc-office.jpeg'); background-size: cover; height: 70vh; }
+.aboutSpacer1 { background-image: url('/i/cfmc-office.jpeg'); background-size: cover; height: 70vh; background-position: center center; }
 
 
 
@@ -20285,7 +20292,10 @@ primaryyellow - FFC90A */
 .csmicon-yelp { background-color: #F43939; }
 .csmicon-google { background-color: #4285F4; }
 
-
+.blog-article h2,
+.blog-article h3,
+.blog-article h4,
+.blog-article h5 { margin-bottom:0.5rem; }
 
 .contact-social-icons li svg { height:1.2em; fill:#FFF; }
 
