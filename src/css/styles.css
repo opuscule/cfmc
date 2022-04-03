@@ -20,6 +20,13 @@
 	For example, we assign these default variables here:
 	$white, $teal, $cyan, $font-size-base, $font-weight-bold (maybe some others after writing this comment)
 */
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 :root {
   --bs-blue: #1b588f;
   --bs-indigo: #f0482b;

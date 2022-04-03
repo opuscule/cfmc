@@ -20,6 +20,7 @@
   "homepage": "https://github.com/opuscule/cfmc#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@sherby/eleventy-plugin-files-minifier": "^1.1.1"
+    "@sherby/eleventy-plugin-files-minifier": "^1.1.1",
+    "eleventy-plugin-lazyimages": "^2.1.2"
   }
 }
